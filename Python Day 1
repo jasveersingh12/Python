@@ -35,11 +35,108 @@ b = 4
 print(a+b)
 output = 9
 
+## arthmetic operations------------------------------
+a = 5
+b = 4
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+
+output
+9
+1
+20
+1.25
+1
+-------------------------------------------------------
+# relational operation-------------comparison operations
+a = 50
+b = 20
+
+print(a == b) # false
+print(a != b) # true
+print(a >= b) # true
+print(a > b) # ture
+print(a <= b) # false
+print(a < b) # false
+
+output 
+false
+true
+true
+true
+false
+false
+---------------------------------------------------------
+# assignment operation
+ 
+num = 10
+num = num + 10
+print(num)
+
+output = 20
+-------------------------------------------------------
+# logical operators----------------- and, not, or
+
+print(not False)
+print(not True)
+ output
+ture
+false
+
+-- example-- --------------------------
+a = 50
+b = 20
+print(not False)
+print(not (a > b))
+
+val1 = True
+val2 = True
+
+print("and operator :", val1 and val2)
+
+output 
+True
+False
+and operator : False
+---------------------------------------------
+
+conversion
+a = 2.5
+a = str(a)
+print(type(a))
+
+output would be 
+<class str>
+------------------------------------------
+input = statement is used to accept values from users
+
+name = input("enter your name")
+print("welcom", name)
+
+output would be 
+welcome 'your name'
+
+example
+name = input("enter your name : ")
+age =  int(input("enter your age : "))
+marks = float(input("enter your marks: "))
+
+print("welcome ", name)
+print("age", age)
+print('marks', marks)
+
+output 
+enter your name : jassi
+enter your age : 52
+enter your marks: 569.5
+welcome  jassi
+age 52
+marks 569.5
+
+-------------------------------------------
 
 
 
-
-
-
-
-<class 'bool'>
