@@ -1,0 +1,45 @@
+basic syntax
+----------------------------
+print("hello world")
+print(9)
+
+output hello world
+output 9
+
+-----------------------------
+name = 'jasveer'
+age = 5
+print(name)
+print(age)
+
+output = jasveer
+output = 5
+------------------------------
+DATA TYPE
+------------------------------
+name = 'jasveer'
+age = 10
+boolean = False
+print(type(name))
+print(type(name))
+print(type(boolean))
+
+OUTPUT
+<class 'str'>
+<class 'str'>
+<class 'bool'>
+
+sum function(aggragate function)
+a = 5
+b = 4
+print(a+b)
+output = 9
+
+
+
+
+
+
+
+
+<class 'bool'>
