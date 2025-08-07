@@ -1,0 +1,32 @@
+second day of learning python
+string and conditional statement 
+string = string is the data type that stores a sequence of character
+
+str1 = "This is a string function. \n we are using python."
+print(str1)
+----------------------------------------------
+str1 = "jasveer"
+str2 = "singh"
+final_str = str1+str2
+print(final_str)
+
+output would be jasveersingh
+--------------------------------------------
+
+str1 = "jasveer"
+len1 = len(str1)
+print(len1)
+
+str2 = "singh"
+len2 = len(str2)
+print(len2)
+
+firststr = str1 + " " + str2
+len3 = len(firststr)
+print(len3)
+
+firststr = str1 + " " + str2
+print(firststr)
+output would be 7,5,13 , jasveer singh
+----------------------------------------------------
+
