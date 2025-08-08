@@ -28,5 +28,158 @@ print(len3)
 firststr = str1 + " " + str2
 print(firststr)
 output would be 7,5,13 , jasveer singh
-----------------------------------------------------
+--------------------------------------------------
+indexing 
+str1 = "jasveer singh"
+ch = str1[4]
+print(ch)
 
+output would be 'e'
+-------------------------------------------------
+silcing
+str1 = "jasveer singh"
+print(str1[0:4])
+print(str1[5:12])
+
+output would be 
+jasv
+er sing
+----------------------------------------------------
+negative silcing
+str = "jasveer singh"
+print(str[-13 : -10])
+print(str[-13 : -1])
+
+output would be 
+jas
+jasveer singh
+-----------------------------------------------------
+string functions
+endswith
+str = "jasveer singh is a good boy"
+print(str.endswith("boy"))
+print(str.endswith("end"))
+
+output would be
+true 
+false
+----------------------------------------------------------
+captilize function
+str = "jasveer singh is a good boy"
+print(str.capitalize())
+
+output would be 
+Jasveer singh is a good boy
+------------------------------------------------------
+replace function
+str = "jasveer singh is a good boy"
+print(str.replace("good", "bad"))
+
+output would be 
+jasveer singh is a bad boy
+------------------------------------------------------
+find function into string
+str = "jasveer singh is a good boy"
+print(str.find("i"))
+print(str.find("singh"))
+
+output would be
+9
+singh
+------------------------------------------------------
+Question to be solved
+print the length of your first name
+Answer
+name = input("enter your name :")
+print("length of your name is", len(name))
+---------------------------------------------
+Question to be solved
+find the occurance of the find i in the sentence
+Answer
+str = "you invest $ into bank"
+print(str.count("i"))
+-------------------------------------
+Conditional statement :- if, else, elif
+valid for vote or not
+
+age = 18
+if (age>= 18):
+    print("valid for vote")
+else:
+    print("not vaild")
+------------------------------------
+traffice light example
+
+light = input("enter the light color:") 
+
+if (light == "green"):
+    print("go")
+
+elif(light == "red"):
+    print("stop")
+
+elif(light == "yellow"):
+    print("wait")
+else:
+    print("light is broken")
+
+---------------------------------------------------
+Grading system in school
+marks = int(input("enter the marks: "))
+
+if (marks >= 90):
+    print("grade A")
+elif(marks >= 80 and marks <90 ):
+    print("grade B")
+
+elif(marks >= 70 and marks < 80):
+    print("grade c")
+elif (marks >=60 and marks <70):
+    print("grade D")
+
+else: 
+    print("fail Saala")
+----------------------------------------------------------
+valid for driving license or driving 
+age = int(input("enter the age :"))
+
+if(age >=18):
+    if(age >=75):
+        print("cannot drive")
+    else:
+        print("can drive")
+else:
+    print("cannot drive")
+--------------------------------------------------------
+find the odd or even number
+
+num = int(input("enter the number :"))
+
+rem = num % 2
+if(rem == 0):
+    print("even")
+else:
+    print("odd")
+---------------------------------------------------------------
+find the greatest number between the three number
+
+a = int(input("enter num: "))
+b = int(input("enter num: "))
+c = int(input("enter num: "))
+
+if(a>=b and a>=c):
+    print(" a is greatest")
+elif(b>=c):
+    print("b is greatest")
+else:
+    print("c is greatest")
+---------------------------------------------------------------------
+find the multiple of 7 or any number or find remainder
+
+num = int(input("enter number: "))
+
+if(num % 7 == 0):
+    print("multiple of 7")
+else:
+    print("not multiple of 7")
+------------------------------------------------------------------------
