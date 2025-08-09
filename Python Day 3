@@ -1,0 +1,36 @@
+we are  going to learn about list and tuples in third day
+use of list
+
+marks = [15, 52,52, 85, 52]
+print(marks)
+print(len(marks))
+print(marks[0])
+print(marks[2])
+----------------------------------------------
+list.append
+marks = [15, 52,52, 85, 52]
+marks.append(50)
+print(marks)
+
+output would be 
+15,52, 52, 85, 52, 50
+--------------------------------------------------
+list.sort
+marks = [15, 52,52, 85, 52]
+print(marks.append(87))
+print(marks.sort())
+print(marks)
+
+output would be 
+None
+None
+[15, 52, 52, 52, 85, 87]
+-------------------------------------------------
+list.remove
+list = [14, 52, 74, 96, 65]
+list.remove(52)
+print(list)
+
+output would be 
+14, 74, 96, 65
+---------------------------------------
