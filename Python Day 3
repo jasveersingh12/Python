@@ -34,3 +34,55 @@ print(list)
 output would be 
 14, 74, 96, 65
 ---------------------------------------
+Tuple
+
+tup = (1, 5, 52, 54, 2)
+print(tup)
+print(type(tup))
+
+output would be
+(1, 5, 52, 54, 2)
+<class 'tuple'>
+-------------------------------------------------
+tuple index method
+
+tup = (1, 5, 52, 54, 2)
+print(tup.index(54))
+print(tup.index(1))
+
+output would be
+3
+0
+-------------------------------------------------
+tuple count method
+
+tup = (1, 5, 52, 54, 54, 2, 2)
+print(tup.count(52))
+print(tup.count(2))
+print(tup.count(54))
+
+output would be
+1
+2
+2
+------------------------------------------------
+question 1
+write three favourite movie and make a list with that
+answer
+name1 = input("enter the favourite movie 1 :")
+name2 = input("enter the favourite movie 2 :")
+name3 = input("enter the favourite movie 3 :")
+
+list = [name1, name2, name3]
+print(list)
+
+second method to use the same questions
+Answer
+movies = []
+movies.append(input("enter the movie1: "))
+movies.append(input("enter the movie2 :"))
+movies.append(input("enter the movie3 :"))
+movies.append(input("enter the movie4 :"))
+print(movies)
+-------------------------------------------------
+
