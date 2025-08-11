@@ -1,1 +1,251 @@
+we are going to study today dictionary
+A) dictionary are used to store data values in key value pairs
+B) dictionary are unorderd, mutable and don't allow duplicate keys
+--------------------------------------------------------------------------
+dict = {
+    "name" : "jasveer",
+    "age" : "27",
+    "CGPA" : "85.4",
+    "marks" : "85, 96, 54, 63, 45"
+}
+print(dict)
+print(type(dict))
+
+output would be
+{'name': 'jasveer', 'age': '27', 'CGPA': '85.4', 'marks': '85, 96, 54, 63, 45'}
+<class 'dict'>
+---------------------------------------------------------------------------------
+you can add any key value pair with this code
+
+dict = {
+    "name" : "jasveer",
+    "age" : "27",
+    "CGPA" : "85.4",
+    "marks" : "85, 96, 54, 63, 45"
+}
+dict["surname"] = "singh"
+print(dict["surname"])
+
+output would be 
+singh
+---------------------------------------------------------------
+nested dictionaries
+
+student = {
+    "name" : "jasveer singh",
+    "subject" : {
+        "maths" : 54,
+        "science" : 52,
+        "hindi" : 85,
+        "english" : 96
+    },
+    "age" : 25,
+    "total marks " : 858
+}
+print(student["subject"] ["science"])
+print(student)
+
+output would be 
+52
+{'name': 'jasveer singh', 'subject': {'maths': 54, 'science': 52, 'hindi': 85, 'english': 96}, 'age': 25, 'total marks ': 858}
+------------------------------------------------------------------------------------------------------------------
+##### dictionary methods
+dict.keys
+student = {
+    "name" : "jasveer singh",
+    "subject" : {
+        "maths" : 54,
+        "science" : 52,
+        "hindi" : 85,
+        "english" : 96
+    },
+    "age" : 25,
+    "total marks " : 858
+}
+
+print(student.keys())
+
+output would be 
+dict_keys(['name', 'subject', 'age', 'total marks '])
+----------------------------------------------------------------------
+####### dict.values
+use of dict.value with list
+
+student = {
+    "name" : "jasveer singh",
+    "subject" : {
+        "maths" : 54,
+        "science" : 52,
+        "hindi" : 85,
+        "english" : 96
+    },
+    "age" : 25,
+    "total marks " : 858
+}
+
+print(list(student.values()))
+
+output would be
+['jasveer singh', {'maths': 54, 'science': 52, 'hindi': 85, 'english': 96}, 25, 858]
+----------------------------------------------------------------------------------------
+dict.get use of get in dictionary
+student = {
+    "name" : "jasveer singh",
+    "subject" : {
+        "maths" : 54,
+        "science" : 52,
+        "hindi" : 85,
+        "english" : 96
+    },
+    "age" : 25,
+    "total marks " : 858
+}
+
+print(student ["name"])
+print(student.get("name"))
+
+output would be 
+jasveer singh
+jasveer singh
+------------------------------------------------------------------------------------
+update method into dictionary
+
+student = {
+    "name" : "jasveer singh",
+    "subject" : {
+        "maths" : 54,
+        "science" : 52,
+        "hindi" : 85,
+        "english" : 96
+    },
+    "age" : 25,
+    "total marks " : 858
+}
+
+student.update({
+    "city" : "delhi",
+    "state" : "Delhi NCR"
+    })
+
+print(student)
+print(type(student))
+
+output would be
+{'name': 'jasveer singh', 'subject': {'maths': 54, 'science': 52, 'hindi': 85, 'english': 96}, 'age': 25, 'total marks ': 858, 'city': 'delhi', 'state': 'Delhi NCR'}
+<class 'dict'>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+now we are going to study sets in python
+sets
+A) sets are unmutable and unordered
+B) duplicate value not allow in sets
+
+collection = {1, 2, 3, 4}
+print(collection)
+print(type(collection))
+
+output would be
+{1, 2, 3, 4}
+<class 'set'>
+---------------------------------------------------
+sets method to use when you are using or writing code
+set.add
+
+collection = set()
+collection.add("ravi")
+collection.add(2)
+collection.add(2)
+collection.add(1)
+print(collection)
+print(len(collection))
+
+output would be
+{1, 2, 'ravi'}
+3
+--------------------------------------------------------
+set.remove
+
+collection = set()
+collection.add("ravi")
+collection.add(2)
+collection.add(2)
+collection.add(1)
+collection.remove(2)
+print(collection)
+
+output would be
+{1, 'ravi'}
+2
+-------------------------------
+set.clear
+
+collection = set()
+collection.add("ravi")
+collection.add(2)
+collection.add(2)
+collection.add(1)
+collection.clear()
+
+print(len(collection))
+
+output would be
+0
+------------------------------------------------------
+set.pop
+
+collection = {"jasveer ", "ravi", 1, 5, "delhi"}
+print(collection.pop())
+print(collection.pop())
+
+output would be
+jasveer 
+1 (it's just random pick up from sets by using pop function or method into sets)
+---------------------------------------------------------------------------------
+sets.union
+
+set1 = {1, 2, 3}
+set2 = {2, 3, 4, 5}
+
+print(set1.union(set2)) #{1, 2, 3, 4, 5}
+-----------------------------------------------
+sets.intersection
+
+set1 = {1, 2, 3}
+set2 = {2, 3, 4, 5}
+
+print(set1.intersection(set2)) #{ 2, 3 }
+-------------------------------------------------
+question to be solved
+write a program and add a empty dict and add subject name and marks into that dictionary
+marks = {}
+
+x = int(input("enter physic :"))
+marks.update({"physic" : x})
+
+x = int(input("enter chem :"))
+marks.update({"chem" : x})
+
+x = int(input("enter maths :"))
+marks.update({"maths" : x})
+
+print(marks)
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
