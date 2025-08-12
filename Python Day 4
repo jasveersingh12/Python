@@ -229,6 +229,14 @@ marks.update({"maths" : x})
 
 print(marks)
 -------------------------------------------
+add a value of 9, and 9.0 into sets 
+
+value = {(9, 9.0)}
+print(type(value))
+print(value)
+
+This is the way to add the value
+-----------------------------------------------------------
 
 
 
