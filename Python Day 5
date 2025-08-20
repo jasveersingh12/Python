@@ -94,6 +94,51 @@ while list < len(actor):
 ----------------------------------------------------------------------------------
 Break and continue loops 
 
+--------------------------------------
+range into loops
+for i in range (10):
+    print(i)
+output would be 0 to 9
+----------------------------------------
+print odd and even nnumber in loops (range)
+odd
+for i in range(1, 101, 2):
+    print(i)
+even 
+for i in range(0, 101, 2):
+    print(i)
+---------------------------------------------
+print the table of any number by input and loops
+
+n = int(input("enter the number : "))
+
+for i in range (1, 11):
+    print(n * i )
+--------------------------------------------------
+Pass statement in loops
+pass used when we want to use null value (syntax)
+
+for i in range (15):
+    pass
+print(some useful work)
+----------------------------------------
+total of range of numbers :
+n = 6
+sum = 0
+for i in range (1, n+1):
+    sum += i
+    
+print("total sum =",  sum)  
+----------------------------------------
+find the n number of factorial 
+n = 3
+fact = 1
+
+for i in range(1, n+1):
+    fact *= i
+
+print("factorial number =", fact)
+-----------------------------------------------------
   
 
 
