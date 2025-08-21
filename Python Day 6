@@ -19,3 +19,23 @@ print(sum)
 sum = calc_sum(10, 10)
 print(sum)
 ------------------------------------------ 
+print the list of cities and heros
+
+cities = ["delhi", "up", "goa", "pune"]
+heros = ["ironman", "thor", "lokki", "hulk"]
+
+def print_list (lists):
+    print(lists)
+
+print_list(heros)
+print_list(cities)
+-------------------------------------------------
+factorial number in function while using loop
+def fact_num (n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    print(fact)
+
+fact_num(5)
+-----------------------------------------------------------
