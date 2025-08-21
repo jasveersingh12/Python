@@ -39,3 +39,45 @@ def fact_num (n):
 
 fact_num(5)
 -----------------------------------------------------------
+write a function for converter usd into inr
+def converter(usd_val):
+    inr_val = usd_val * 83
+    print( usd_val,"USD = ", inr_val,"INR" )
+
+converter(100 )
+
+def euro_converter(euro_val):
+    inr_val = euro_val * 105
+    print(euro_val, "EURO=", inr_val,"INR")
+
+euro_converter(10)
+--------------------------------------------------------------
+Recursion syntax
+def show(n):
+    if (n == 0):
+        return
+    print(n)
+    show(n-1)
+
+show(10)
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
