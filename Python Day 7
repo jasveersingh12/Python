@@ -27,3 +27,7 @@ it will change the file context which is available there
 f = open("demo.txt", "a")
 
 ------------------------------
+with open("demo.txt","r") as f:
+    data = f.read()
+    print(data)
+ 
