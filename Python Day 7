@@ -30,4 +30,84 @@ f = open("demo.txt", "a")
 with open("demo.txt","r") as f:
     data = f.read()
     print(data)
- 
+---------------------------------------
+if you want to delete file
+import os
+os.remove("demo.txt")
+
+-----------------------
+open two file in python using write and read mode
+with open("practice.txt", "r") as f:
+    data = f.read()
+    print(data)
+    
+with open("sample.txt", "w") as f:
+    f.write("we are done \nI like programming python\n")
+    f.write("but all are they say \nc++ is best lanagauge for job")
+-----------------------------------------------------
+
+change the variable with java to python
+
+new_data = data.replace("java", "python")
+print(new_data)
+----------------------------------------------
+find a word in python
+
+word = "learning"
+with open("practice.txt", "r") as f:
+    data = f.read()
+    if (data.find(word) != -1):
+        print("found")
+    else:
+        print("not found")
+   -----------------------------------------------------------
+convert this into function and use it 
+def check_for_word():
+
+    word = "xlearning"
+    with open("practice.txt", "r") as f:
+        data = f.read()
+        if (data.find(word) != -1):
+            print("found")
+        else:
+            print("not found")
+   
+check_for_word()
+------------------------------------------------
+print the line for the word which you are searching
+
+def check_for_line():
+    word = "jasveer"
+    data = True
+    line_no = 1
+    with open ("practice.txt", "r") as f:
+        while data:
+            data = f.readline()
+            if (word in data):
+                print(line_no)
+                return
+            line_no += 1
+
+    return -1
+print(check_for_line ())
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
