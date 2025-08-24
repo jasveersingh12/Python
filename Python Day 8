@@ -1,0 +1,13 @@
+we are going to learn oops today
+class is buleprint for creating objects
+-------------------------------
+class student:
+    name = "karan"
+
+s1 = student()
+print(s1.name)
+
+
+s2 = student()
+print(s2.name)
+-------------------------------
